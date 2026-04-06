@@ -304,14 +304,6 @@ header {
 
 
 
-#section5-top{
-    background-image: url("Assets/section5top.png");
-    background-repeat: repeat-x;
-    background-size: 12vh;
-    background-color: #a5f2ff;
-    height: 7vh;
-    
-}
 
 
 .section5{
@@ -322,13 +314,23 @@ header {
     display:flex;
     flex-direction: column;
     text-align: center;
-    height: 700px;
+    position: relative;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.section5 .top{
+    align-self: center;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 .section5 h1{
     color: #7150be;
     font-size: 40px;
-    padding: 10px;
+    margin-top: -60px;
+    margin-bottom: 60px;
     text-shadow:
     -2px -2px 0 white,
      2px -2px 0 white,
@@ -340,16 +342,24 @@ header {
      0    2px 0 white;
 
 }
+
+.section5 p{
+    font-size: 14px;
+    line-height: 25px;
+    align-self: center;
+    width: 55vw;
+}
 .cards{
     align-self: center;
     width: 70vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 20px;
 }
 
 .card{
-    border-radius: 30px;
+    border-radius: 25px;
     width: 14vw;
     margin-left: 5px; /* overlap amount */
     transition: transform 0.2s ease;
@@ -359,14 +369,14 @@ header {
 .card:first-child{
     margin-left: 0;
 }
-.card1 { transform: rotate(-8deg); z-index:1; }
-.card2 { transform: rotate(-4deg); z-index:2; }
-.card3 { transform: rotate(0deg);  z-index:3; }
-.card4 { transform: rotate(4deg);  z-index:2; }
-.card5 { transform: rotate(8deg);  z-index:1; }
+.card1 { transform: rotate(-10deg) translateY(-15px); z-index:1; }
+.card2 { transform: rotate(4deg) translateY(5px) translateX(-6px); z-index:2; }
+.card3 { transform: rotate(-3deg) translateY(-25px);  z-index:3; }
+.card4 { transform: rotate(5deg) translateY(10px) translateX(-5px);  z-index:2; }
+.card5 { transform: rotate(-6deg) translateY(-7px);  z-index:1; }
 
 .card:hover{
-    transform: rotate(0deg) scale(1.05);
+    transform: scale(1.05);
     z-index: 10;
 }
 
@@ -382,5 +392,24 @@ header {
         width: 80vw;
         margin-left: 0;
     }
+
+}
+
+#section5-bottom{
+    background-image: url("Assets/section5top.png");
+    background-repeat: repeat-x;
+    background-size: 12vh;
+    background-color: #fdfdec;
+    height: 7vh;
+}
+
+.section6{
+    background-color: #fdfdec;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+
 
 }
