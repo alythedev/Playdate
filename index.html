@@ -73,9 +73,10 @@
             </p>
         </div>
         
-        <div class="section3b">
-                <img src="Assets/examples.png">
-            </div>
+<div class="section3b">
+    <img id="exampleImage" src="Assets/game1.png">
+    <p id="exampleCaption">Fire Boy & Water Girl</p>
+</div>
         </div>
         </div>
         
@@ -86,24 +87,24 @@
         
             <h2>1. Find a "playdate"</h2>
             <p>
-                Find a friend to make a game with you! If they're not already in the <a href="url">Hack Club Slack</a>, you can invite them yourself.
+                Find a friend to make a game with you! If they're not already in the <a href="https://hackclub.com/slack" target="_blank">Hack Club Slack</a>, you can invite them yourself.
             </p>
-            <h2>2. Post your idea in <a href="url">#playdate</a></h2>
+            <h2>2. Post your idea in <a href="https://hackclub.enterprise.slack.com/archives/C0ARCABUZ3K" target="_blank">#playdate</a></h2>
             <p>
                 Introduce your game idea, who you're working with, and what you each plan to do.
             </p>
             <h2>3. Code/draw</h2>
             <p>
-                You and your "playdate" should track your time seperately. You should both be using <a href="url">Hackatime</a> (for time spent coding) and <a href="url">Lapse</a> (for time spent on art).  
+                You and your "playdate" should track your time seperately. You should both be using <a href="https://hackatime.hackclub.com/" target="_blank">Hackatime</a> (for time spent coding) and <a href="https://lapse.hackclub.com/" target="_blank">Lapse</a> (for time spent on art).  
                 Make sure both are set up before you start. You should also have a GitHub repository with frequent commits.
             </p>
             <h2>4. Share progress</h2>
             <p>
-                Post detailed updates to your original thread in <a href="url">#playdate</a> every ~5 hours of work.
+                Post detailed updates to your original thread in <a href="https://hackclub.enterprise.slack.com/archives/C0ARCABUZ3K" target="_blank">#playdate</a> every 5 hours of work.
             </p>
             <h2>5. Publish & get  prizes!</h2>
             <p>
-                Publish your game on <a href="url">Itch.io</a>, and submit <a href="url">the form</a> to get your prizes!
+                Publish your game on <a href="https://itch.io/" target="_blank">Itch.io</a>, and submit <a href="url" target="_blank">the form</a> to get your prizes!
             </p>
 
         </div>
@@ -129,28 +130,28 @@
     <div class="section6">
         <div class="above-FAQ">
             <h1>FAQ</h1>
-            <h2>If you still have questions, ask in <a href="url">#playdate-help</a>!</h2>
+            <h2>If you still have questions, ask in <a href="https://hackclub.enterprise.slack.com/archives/C0AR708E3T5" target="_blank">#playdate-help</a>!</h2>
         </div>
         <div class="FAQs">
             <div class="FAQ-box" id="red">
                 <h1>Who is eligible?</h1>
-                <p>Playdate is for all teens aged 13-18 (inclusive). To participate, you'll have to join the <a href="url">Hack Club Slack</a>.</p>
+                <p>Playdate is for all teens aged 13-18 (inclusive). To participate, you'll have to join the <a href="url" target="_blank">Hack Club Slack</a>.</p>
             </div>
 
             <div class="FAQ-box">
                 <h1>How do I track my time?</h1>
-                <p>You and your "playdate" should be tracking your time seperately. Use <a href="url">Hackatime</a> for time spent coding and <a href="url">Lapse</a> for time spent on art.</p>
+                <p>You and your "playdate" should be tracking your time seperately. Use <a href="https://hackatime.hackclub.com/" target="_blank">Hackatime</a> for time spent coding and <a href="https://lapse.hackclub.com/" target="_blank">Lapse</a> for time spent on art.</p>
 
             </div>
 
             <div class="FAQ-box" id="purple">
                 <h1>What game engines am I allowed to use?</h1>
-                <p>We recommend <a href="url">Godot</a>, but <a href="url">any engine with Hackatime support</a> support should be fine.</p>
+                <p>We recommend <a href="https://hackatime.hackclub.com/docs/editors/godot" target="_blank">Godot</a>, but <a href="https://hackatime.hackclub.com/docs" target="_blank">any engine with Hackatime support</a> support should be fine.</p>
             </div>
 
             <div class="FAQ-box">
                 <h1>What's required for me to submit?</h1>
-                <p>You'll need your thread, total time logged on <a href="url">Hackatime</a>/<a href="url">Lapse</a>, your game deployed on Itch.io, and a public GitHub repository.</p>
+                <p>You'll need your thread, total time logged on <a href="https://hackatime.hackclub.com/" target="_blank">Hackatime</a>/<a href="https://lapse.hackclub.com/" target="_blank">Lapse</a>, your game deployed on Itch.io, and a public GitHub repository.</p>
             </div>
 
             <div class="FAQ-box" id="blue">
@@ -167,7 +168,7 @@
         </div>
     </div>
     <div id="section3-bottom">
-        <a href="url" target="_blank">
+        <a href="https://hackclub.enterprise.slack.com/archives/C0ARCABUZ3K" target="_blank">
             <div class="bottom-container">
                 <b>Join #playdate</b>
             </div>
@@ -183,7 +184,7 @@
         <div id="footer-content">
             <b>Made with ❤︎ by @Aly</b>
             <br>
-            <a href="url">Hack Club</a> · <a href="url">Slack</a> · <a href="url">Clubs</a>
+            <a href="https://hackclub.com/" target="_blank">Hack Club</a> · <a href="https://hackclub.com/slack" target="_blank">Slack</a> · <a href="https://hackclub.com/clubs" target="_blank">Clubs</a>
         </div>
     </div>
 <script>
@@ -215,7 +216,42 @@ document.getElementById('send-invite').addEventListener('click', () => {
 });
 </script>
 
+<script>
+    const images = [
+    {src:"Assets/game1.png", caption:"Fire Boy & Water Girl"},
+    {src:"Assets/game2.png", caption:"It Takes Two"},
+    {src:"Assets/game3.png", caption:"Cuphead"},
+    {src:"Assets/game4.png", caption:"PEAK"},
+    {src:"Assets/game5.png", caption:"Basket Random"}
 
+];
+
+let index = 0;
+
+const img = document.getElementById("exampleImage");
+const caption = document.getElementById("exampleCaption");
+
+setInterval(() => {
+    index = (index + 1) % images.length;
+
+    const section3b = document.querySelector('.section3b');
+
+    // Remove animation class if it exists
+    section3b.classList.remove('animate');
+
+    // Force reflow to restart animation
+    void section3b.offsetWidth;
+
+    // Update image and caption
+    img.src = images[index].src;
+    caption.textContent = images[index].caption;
+
+    // Add animation class to trigger animation
+    section3b.classList.add('animate');
+
+}, 3000);
+
+</script>
 
 </body>
 </html>
