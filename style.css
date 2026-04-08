@@ -516,6 +516,7 @@ header {
     -webkit-user-drag: none;
     user-select: none;
 
+    border: 4px solid #6749b7;
     border-radius: 25px;
     width: 14vw;
     margin-left: 5px;
