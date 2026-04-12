@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'Seurat Pro';
-  src: url('Assets/Fonts/FOT-Seurat\ Pro\ M.otf') format('opentype');
+  src: url('Assets/fonts/FOT-Seurat\ Pro\ M.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Seurat Pro';
-  src: url('Assets/Fonts/FOT-Seurat\ Pro\ B.otf') format('opentype');
+  src: url('Assets/fonts/FOT-Seurat\ Pro\ B.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
 }
