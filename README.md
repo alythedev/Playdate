@@ -2,8 +2,6 @@
 
 Playdate is a Hack Club YSWS concept, originally created for my Hack Club gap year application. The premise is simple - make a game with a friend that you can play together, get prizes together! I intend to run this YSWS during summer 2026.
 
-<br>
-
 <p align="center">
   <a href="https://alythedev.github.io/Playdate/" target="_blank">
     <img width="210" src="https://github.com/user-attachments/assets/42aae38c-fbc7-4c3e-856b-1577569721db" />
